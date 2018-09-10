@@ -25,7 +25,7 @@ find_package(catkin COMPONENTS
         REQUIRED)
 
 find_package(Eigen REQUIRED)
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 2.4.8 REQUIRED)
 find_package(TinyXML REQUIRED)
 
 # dynamic reconfigure support
